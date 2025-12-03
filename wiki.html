@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia Clone</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f8f9fa;
+            color: #202122;
+        }
+
+        /* Header */
+        .header {
+            background-color: #ffffff;
+            border-bottom: 1px solid #a2a9b1;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            position: sticky;
+            top: 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+        }
+
+        /* Left Sidebar */
+        .sidebar {
+            width: 200px;
+            background-color: #ffffff;
+            border-right: 1px solid #a2a9b1;
+            padding: 15px;
+            height: 100vh;
+            box-sizing: border-box;
+            position: sticky;
+            top: 50px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+            font-size: 16px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        .sidebar a {
+            display: block;
+            margin: 8px 0;
+            color: #0645ad;
+            text-decoration: none;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content */
+        .content {
+            padding: 20px;
+            max-width: 800px;
+        }
+
+        .content h2 {
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+
+        /* Infobox-style box */
+        .infobox {
+            float: right;
+            width: 250px;
+            background: #ffffff;
+            border: 1px solid #a2a9b1;
+            padding: 10px;
+            margin: 0 0 20px 20px;
+            font-size: 14px;
+        }
+
+        .infobox h4 {
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h1>My Wiki Clone</h1>
+    </div>
+
+    <div class="container">
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h3>Navigation</h3>
+            <a href="#">Main Page</a>
+            <a href="#">Random Article</a>
+            <a href="#">About</a>
+            <a href="#">Help</a>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <h2>Sample Article Title</h2>
+
+            <div class="infobox">
+                <h4>Infobox</h4>
+                <p><strong>Type:</strong> Example</p>
+                <p><strong>Created:</strong> 2025</p>
+            </div>
+
+            <p>
+                This is a sample paragraph mimicking a Wikipedia-style layout.  
+                You can replace this with real content or create multiple pages linked together.
+            </p>
+
+            <h3>Section Header</h3>
+            <p>
+                Add more text, images, tables, or links to build out your own wiki system.
+            </p>
+        </div>
+
+    </div>
+
+</body>
+</html>
